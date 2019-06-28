@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+
+.square_btn{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #668ad8;/*左線*/
+    color: #668ad8;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    font-family: cursive;
+}
+.square_btn:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+.square_btn:hover {
+  color:#4b4bd5;
+  transition: .5s;
+}
+
+.square_btn2{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #ff7c5c;/*左線*/
+    color: #ff7c5c;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    font-family: cursive;
+}
+.square_btn2:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+.square_btn2:hover {
+  color:#fb4417;
+  transition: .5s;
+}
+
+.square_btn3{
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #f7f7f7;
+    border-left: solid 6px #fd9535;/*左線*/
+    color: #fd9535;/*文字色*/
+    font-weight: bold;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
+    font-family: cursive;
+}
+.square_btn3:active {
+    box-shadow: inset 0 0 2px rgba(128, 128, 128, 0.1);
+    transform: translateY(2px);
+}
+.square_btn3:hover {
+  color:#ffa500;
+  transition: .5s;
+}
+
+input#square_btn4{
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #00BCD4;
+    background: #ECECEC;
+    transition: .4s;
+    font-family: cursive;
+    font-size: 200%;
+  }
+
+input#square_btn4:hover {
+    background: #00bcd4;
+    color: white;
+}
+
+.box3 {
+    color: #2c2c2f;
+    background: #cde4ff;/*背景色*/
+    font-family: cursive;
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    border: solid 3px #000000;
+}
+.box3 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box20 {
+    position: relative;
+    padding: 0.25em 1em;
+    margin: 2em 0;
+    top: 0;
+    background: #efefef;
+    font-family: cursive;
+}
+.box20:before, .box20:after{ 
+    position: absolute;
+    top: 0;
+    content:'';
+    width: 10px;
+    height: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box20:before{
+    border-left: dotted 6px #15adc1;
+    border-top: dotted 6px #15adc1;
+    border-bottom: dotted 6px #15adc1;
+    left: 0;
+}
+.box20:after{
+    border-top: dotted 6px #15adc1;
+    border-right: dotted 6px #15adc1;
+    border-bottom: dotted 6px #15adc1;
+    right: 0;
+}
+.box20 p {
+    margin: 0; 
+    padding: 0;
+}
+
+
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 5px #FFC107;
+    font-family: cursive;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 25px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 30px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
+
+t1 {
+position: relative;
+font-family: cursive;
+}
+
+t1:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+width: 100%;
+height: 6px;
+background: -webkit-repeating-linear-gradient(-45deg, #6ad1c8, #6ad1c8 2px, #fff 2px, #fff 4px);
+background: repeating-linear-gradient(-45deg, #6ad1c8, #6ad1c8 2px, #fff 2px, #fff 4px);
+font: "src/design/SignupServlet.java"
+}
+
